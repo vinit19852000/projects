@@ -1,0 +1,23 @@
+package sample.com.Controler;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/test")
+public class Contrller {
+
+	
+	@GetMapping
+	public String getmap() {
+		
+		return "hello";
+	}
+	
+	@GetMapping("/hi")
+	public String getmap() {
+		
+		return "hii";
+	}
+}
