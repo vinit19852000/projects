@@ -1,8 +1,0 @@
-package sample.com.objects;
-
-public class Company {
-	
-	private String name;
-	prviate String GSTNumber;
-
-}
