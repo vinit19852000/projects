@@ -1,0 +1,49 @@
+package sample.com.objects;
+
+public class Company {
+	
+	public Company(String name, String gSTNumber, double revenue, double networth, String headquater) {
+		super();
+		this.name = name;
+		GSTNumber = gSTNumber;
+		this.revenue = revenue;
+		this.networth = networth;
+		this.headquater = headquater;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getGSTNumber() {
+		return GSTNumber;
+	}
+	public void setGSTNumber(String gSTNumber) {
+		GSTNumber = gSTNumber;
+	}
+	public double getRevenue() {
+		return revenue;
+	}
+	public void setRevenue(double revenue) {
+		this.revenue = revenue;
+	}
+	public double getNetworth() {
+		return networth;
+	}
+	public void setNetworth(double networth) {
+		this.networth = networth;
+	}
+	public String getHeadquater() {
+		return headquater;
+	}
+	public void setHeadquater(String headquater) {
+		this.headquater = headquater;
+	}
+	private String name;
+	private String GSTNumber;
+	private double revenue;
+	private double networth;
+	private String  headquater;
+
+}
