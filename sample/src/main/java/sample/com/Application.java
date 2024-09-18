@@ -9,7 +9,7 @@ import io.swagger.v3.oas.annotations.info.Info;
 
 
 @SpringBootApplication
-@OpenAPIDefinition(info = @Info(title = "abc",description = "This is crud operation api's"))
+@OpenAPIDefinition(info = @Info(title = "Backend API'S",description = "This is Crud Operation For Demo Project "))
 public class Application {
 	
 	
